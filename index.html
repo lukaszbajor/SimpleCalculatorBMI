@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Kalkulator BMI</h1>
+        <div class="data">
+            <label>Podaj wzrost(cm):<input type="number" class="cm" placeholder="Podaj wzrost"></label><br>
+            <label>Podaj wagę(kg):<input type="number" class="kg" placeholder="Podaj wagę"></label><br>
+            <button class="result">Oblicz</button>
+            <p class="error">Wypełnij wszystkie pola!</p>
+            <p class="describe">Twoje BMI to: <span class="bmiNumber"></span>, co oznacza:<span class="typeBmi"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
